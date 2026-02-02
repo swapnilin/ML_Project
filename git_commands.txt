@@ -1,0 +1,20 @@
+> Initialize git
+git init
+
+> To connect local code to the remote git repo
+git remote add origin https://github.com/swapnilin/ML_Project
+
+> verify
+git remote -v
+
+> Essential for new git (or it defaults to master)
+git branch -M main
+
+> git add .
+> git commit -m "updated code"
+> git push origin main
+
+MongoDB connection string
+user - swapnilforcat@admin
+pwd - swapnilforcat
+mongodb+srv://<db_username>:<db_password>@cluster0128.u5ambai.mongodb.net/?appName=cluster0128
