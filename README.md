@@ -6,7 +6,7 @@ conda create -n project python=3.10 -y
 -y automatically answers “yes” to confirmation prompts and -n is for the name of the environment.
 
 After the env is created, switch to the new environment
-``bash
+```bash
 conda activate project
 ```
 Remember to delete environements after projects are completed. They take up lot of space in your drive.
@@ -20,3 +20,5 @@ When you start your project you may not know all the modules required upfront, y
 pip freeze > requirements.txt
 ```
 This captures exact versions and ensures anyone can reproduce your environment.
+
+
