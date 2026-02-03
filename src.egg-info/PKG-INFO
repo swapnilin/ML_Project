@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: src
+Version: 0.0.1
+Summary: MLOps project for productionizing models
+Author: Swapnil Kangralkar
+Author-email: Vikash Das <swapnilforeverything@gmail.com>
+Dynamic: author
