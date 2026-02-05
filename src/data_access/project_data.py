@@ -6,10 +6,10 @@ import numpy as np
 from typing import Optional
 
 from src.configuration.mongo_db_connection import MongoDBClient
-from src.constants import DATABASE_NAME
+from src.constants import DB_NAME
 from src.exception import MyException
 
-class Proj1Data:
+class ProjectData:
     """
     A class to export MongoDB records as a pandas DataFrame.
     """
@@ -19,7 +19,7 @@ class Proj1Data:
         Initializes the MongoDB client connection.
         """
         try:
-            self.mongo_client = MongoDBClient(database_name=DATABASE_NAME)
+            self.mongo_client = MongoDBClient(database_name=DB_NAME)
         except Exception as e:
             raise MyException(e, sys)
 
