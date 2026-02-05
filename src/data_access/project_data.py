@@ -46,7 +46,7 @@ class ProjectData:
             else:
                 collection = self.mongo_client[database_name][collection_name]
 
-            # Convert collection data to DataFrame and preprocess
+            # Data in MongoDB is in key-value pair. Convert collection data to DataFrame and preprocess
             print("Fetching data from mongoDB")
             df = pd.DataFrame(list(collection.find()))
             print(f"Data fecthed with len: {len(df)}")
