@@ -1,3 +1,13 @@
+###Workflow###
+* constants
+* config_entity
+* artifact_entity
+* component
+* pipeline
+* demo.py/app.py
+
+
+
 1. Create project template by executing template.py file
 2. Write the code on setup.py and pyproject.toml file to import local packages
    >> Find more about "setup.py and pyproject.toml" at crashcourse.txt
