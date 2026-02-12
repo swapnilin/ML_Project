@@ -1,6 +1,9 @@
 import os
 from datetime import date
 
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
+
+
 # constants for MongoDB connection
 DB_NAME = "vehicle"
 COLLECTION_NAME = "mlops"
@@ -18,7 +21,7 @@ PREPROCSSING_OBJECT_FILE_NAME = "preprocessing.pkl"
 FILE_NAME: str = "data.csv"
 TRAIN_FILE_NAME: str = "train.csv"
 TEST_FILE_NAME: str = "test.csv"
-SCHEMA_FILE_PATH = os.path.join("config", "schema.yaml")
+SCHEMA_FILE_PATH = os.path.join(ROOT_DIR, "config", "schema.yaml")
 
 
 AWS_ACCESS_KEY_ID_ENV_KEY = "AWS_ACCESS_KEY_ID"
